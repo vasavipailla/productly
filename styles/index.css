@@ -138,11 +138,32 @@ li {
 
 .container2 {
     display: flex;
+    justify-content: space-between;
    
+}
+
+.sub {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+
+}
+
+.para {
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #0e0c09;
+
+
 }
 
 .button2 {
      text-align: center;
+     margin:50px;
+    
 }
 
 .main-button2 {
@@ -160,4 +181,41 @@ li {
     background: #FF9900; 
     border: none;
 
+}
+
+.container3 {
+    display: flex;
+    margin: 30px;
+   
+}
+
+.heading1{
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #544837;
+
+}
+
+.heading2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    color: #2F281E;
+}
+
+.para1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
 }
