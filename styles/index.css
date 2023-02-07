@@ -1,0 +1,142 @@
+header {
+    display: flex ;
+    margin: 20px;
+
+}
+
+
+.navigation {
+    position: relative;
+    display: flex;
+    /* justify-content: flex-start;
+    align-items:flex-start; */
+    /* width: 1400px;
+    height: 78px;
+    margin: 20px; */
+}
+
+.logo {
+
+
+}
+
+.bit {
+    position: absolute;
+    left: 143.92px;
+    top: 22px;
+}
+
+.productly {
+    position: absolute;
+    background: #173A56;
+    left: 13.3%;
+    right: 76.48%;
+    top: 32.05%;
+    bottom: 30.8%;
+
+}
+
+li {
+    display:inline-block;
+}
+
+
+.sign {
+    position:relative;
+
+
+}
+
+.in {
+    position: absolute;
+    height: 24px;
+    left: 24.75%;
+    right: 21.78%;
+    top: calc(50% - 24px/2);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #173A56;
+
+}
+
+.container1 {
+    display: flex;
+    margin: 30px;
+}
+
+
+.section1 {
+     margin: 30px;
+
+}
+
+/* .section1 {
+    display: inline-block;
+} */
+
+
+.main-title1 {
+    width:100%;
+    max-width: 518px;
+    height: 108px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    /* or 123% */
+    color: #2F281E;
+
+}
+
+.main-info1 {
+    width: 100%;
+    max-width: 458px;
+    height: 95px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #544837;
+}
+
+.button1 {
+    width: 100%;
+    max-width: 175px;
+    height: 53px;
+    background: #FF9900;
+    border: none;
+
+}
+
+.class2 {
+    width: 604.35px;
+    height: 494.83px;
+
+}
+
+/* .section2 {
+    margin: 30px;
+   padding: 20px;
+} */
+
+/* .main-title2 {
+    height: 108px;
+    left: 38.22%;
+    right: 37.4%;
+    top: calc(50% - 108px/2 - 217.5px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+
+} */
