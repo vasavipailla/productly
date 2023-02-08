@@ -43,6 +43,8 @@ nav {
 }
 
 ul{
+    position: absolute;
+    top:10px;
     width:100%;
     max-width: 350px;
     list-style: none;
@@ -331,6 +333,46 @@ li > a {
     line-height: 54px;
     /* identical to box height */
     color: #2F281E;
+}
+
+.container5 {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.para4 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+    color: #544837;
+
+}
+
+.btw {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+    color: #544837;
+    background: #FF9900;
+    border-radius: 4px;
+    border:none;
+    position:absolute;
+    bottom: 30px;
+
+}
+
+.logo4 {
+    position:relative;
+    bottom:90px;
 }
 
 
