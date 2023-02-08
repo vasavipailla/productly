@@ -1,58 +1,75 @@
-header {
-    display: flex ;
-    margin: 20px;
-
-}
-
-
-.navigation {
-    position: relative;
+body {
+    margin:50px;
     display: flex;
-    /* justify-content: flex-start;
-    align-items:flex-start; */
-    /* width: 1400px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+header {
+    width: 100%;
+    max-width: 1400px;
     height: 78px;
-    margin: 20px; */
+    /* top: 100%;
+    left: 0px;
+    top: 20px; */
 }
 
-.logo {
 
-
+nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-evenly ;
+    align-content: flex-start;
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    
 }
 
-.bit {
-    position: absolute;
-    left: 143.92px;
-    top: 22px;
+.logo1 {
+    left: 10.28%;
+    right: 87.49%;
+    top: 28.21%;
+    bottom: 30.77%;
 }
 
-.productly {
-    position: absolute;
-    background: #173A56;
+.logo2 {
     left: 13.3%;
     right: 76.48%;
     top: 32.05%;
     bottom: 30.8%;
-
 }
 
-li {
-    display:inline-block;
+ul{
+    width:100%;
+    max-width: 350px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+        
 }
 
 
-.sign {
-    position:relative;
-
-
+li > a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    height: 28px;
+    left: 46.43%;
+    right: 28.57%;
+    width:100%;
+    max-width: 350px;
+    
 }
+
 
 .in {
-    position: absolute;
-    height: 24px;
-    left: 24.75%;
-    right: 21.78%;
-    top: calc(50% - 24px/2);
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -61,6 +78,18 @@ li {
     /* identical to box height */
     color: #173A56;
 
+}
+
+.up {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: #FF9900;
+    border-radius: 4px;
 }
 
 .container1 {
@@ -242,6 +271,10 @@ li {
     margin: 30px;
 }
 
+.man2 {
+    margin: 30px;
+}
+
 .heading4 {
     font-family: 'Poppins';
     font-style: normal;
@@ -272,6 +305,35 @@ li {
     /* or 162% */
     color: #544837;
 }
+
+.container5 {
+    display: flex;
+
+}
+
+.para3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+}
+
+.heading5 {
+    width: 100%;
+    max-width: 190px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    color: #2F281E;
+}
+
+
 
 
 
